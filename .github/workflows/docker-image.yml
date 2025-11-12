@@ -12,7 +12,7 @@ jobs:
   build-and-push:
     runs-on: ubuntu-latest
     env:
-      IMAGE_NAME: "BaskarTest/ust-test-image"
+      IMAGE_NAME: "boss10/ust-test-image"
 
     steps:
       - name: Checkout repository (fetch all tags)
